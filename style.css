@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Poppins:wght@500&display=swap');
+* {
+    font-family: 'DM Sans';
+}
+
+.navbar {
+    padding: 50px 70px !important;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    display: flex;
+    align-items: center; 
+}
+  
+.navbar-brand {
+    display: block;
+    float: none; 
+    text-align: center;
+    color: #1E0E62 !important;
+    font-size: 24px !important;
+    font-weight: 700;
+}
+
+.navbar-nav li {
+    margin-right: 25px;
+}
+
+.nav-link {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav-search {
+    font-size: 16px;
+}
+
+.in-btn {
+    color: rgba(0,0,0,.5);
+    border: none;
+    background: transparent;
+}
+
+.up-btn {
+    width: 100px;
+    border-radius: 100px;
+    height: 40px;
+    color: #fff;
+    background: #25DAC5;
+    border: none;
+}
+
+.hero-texts {
+    margin-top: 70px;
+}
+
+.hero-heading {
+    text-align: center;
+    color: #1E0E62;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 86px;
+}
+
+.hero-para {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    color: rgba(0,0,0,.5);
+}
+
+.body-btn, .learn-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.body-btn button {
+    width: 300px;
+    height: 60px;
+    color: #fff;
+    border-radius: 100px;
+    background-color: #25DAC5;
+    border: none;
+}
+
+.learn-link {
+    margin-top: 30px;
+}
+
+.learn, .learn:hover{
+    color: #25DAC5;
+    font-size: 18px; 
+    font-weight: 500;
+    font-family: 'Poppins';
+    text-decoration: none;
+}
+
+@media (max-width: 786px) {
+    .hero-heading {
+        font-size: 60px;
+    }
+
+    p br {
+        display: none;
+        margin: 0;
+        padding: 0;
+    }
+      
+    p {
+        white-space: pre-line;
+    }
+
+    .learn {
+        padding-bottom: 30px;
+    }
+
+    .hero-texts {
+        margin-top: 40px;
+    }
+}

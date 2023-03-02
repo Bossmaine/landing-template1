@@ -36,7 +36,7 @@
 }
 
 .in-btn {
-    color: rgba(0,0,0,.5);
+    color: #15143966;
     border: none;
     background: transparent;
 }
@@ -68,7 +68,7 @@
     font-size: 22px;
     font-weight: 500;
     line-height: 32px;
-    color: rgba(0,0,0,.5);
+    color: #15143966;
 }
 
 .body-btn, .learn-link {
@@ -104,14 +104,8 @@
         font-size: 60px;
     }
 
-    p br {
+    br {
         display: none;
-        margin: 0;
-        padding: 0;
-    }
-      
-    p {
-        white-space: pre-line;
     }
 
     .learn {
@@ -120,5 +114,6 @@
 
     .hero-texts {
         margin-top: 40px;
+        padding: 0 20px;
     }
 }
